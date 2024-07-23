@@ -14,7 +14,7 @@ from streamlit_lottie import st_lottie
 st.set_page_config(
     page_title="Υπολογιστής Μαραθωνίου",
     page_icon=":runner:",
-    layout="centered",
+    layout="wide",
     # initial_sidebar_state="collapsed",
     menu_items={
         'Report a bug': "mailto:spotarace@gmail.com",
