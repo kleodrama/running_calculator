@@ -10,6 +10,19 @@ import requests
 from streamlit_lottie import st_lottie
 
 
+
+st.set_page_config(
+    page_title="Υπολογιστής Μαραθωνίου",
+    page_icon=":runner:",
+    layout="centered",
+    # initial_sidebar_state="collapsed",
+    menu_items={
+        'Report a bug': "mailto:spotarace@gmail.com",
+        'About': "### Υπολογιστής Μαραθωνίου. *Spot a Race*"
+    }
+)
+
+
 url = requests.get("https://lottie.host/509a6dbb-4e38-4047-aa23-79434afe3b37/bbpn8q99Rg.json")
 url_json = dict()
 
