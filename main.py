@@ -225,3 +225,10 @@ st.bar_chart(new_new_df, x="Χιλιόμετρο", y="Ταχύτητα")
 
 
 
+
+
+'---'
+
+st.image('https://www.spotarace.gr/static/favicons/android-chrome-192x192.png',
+         caption='Designed by Spot A Race', width=100)
+st.link_button("spotarace.gr", "https://www.spotarace.gr")
